@@ -19,3 +19,6 @@ absoluteValuesSumMinimization
   element of a is closest to all other values of a. In other words, 
   find the element x in a, which minimizes the following sum:
   abs(a[0] - x) + abs(a[1] - x) + ... + abs(a[a.length - 1] - x)
+  
+extractEachKth
+ :Given array of integers, remove each kth element from it.

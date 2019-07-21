@@ -1,0 +1,17 @@
+bool chessBoardCellColor(std::string cell1, std::string cell2) {
+    if (int(cell1[0]) % 2 == int(cell2[0] % 2))
+    {
+        if (  ((int(cell1[1]) % 48) % 2) == ((int(cell2[1]) % 48) % 2))
+        {
+            return true;
+        }
+    }
+    else {
+            if (((int(cell1[1]) % 48) % 2) != ((int(cell2[1]) % 48) % 2))
+            {
+                return true;
+            }
+    }
+    
+    return false;
+}

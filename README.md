@@ -22,3 +22,7 @@ absoluteValuesSumMinimization
   
 extractEachKth
  :Given array of integers, remove each kth element from it.
+
+differentSymbolsNaive
+ :Given a string, find the number of different characters in it.
+

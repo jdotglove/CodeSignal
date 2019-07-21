@@ -1,0 +1,15 @@
+int depositProfit(int deposit, int rate, int threshold) {
+    int i = 0;
+    float amount = deposit*1.0;
+    float gro_rate = (100.0+rate)/100;
+
+    while (amount < threshold)
+    {
+        amount = amount*gro_rate;
+        i++;
+    }
+    
+    std::cout << amount;
+    
+    return i;
+}

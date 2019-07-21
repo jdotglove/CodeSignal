@@ -10,3 +10,6 @@ depositProfit
   Each year your balance increases at the same growth rate. With the 
   assumption that you don't make any additional deposits, find out how 
   long it would take for your balance to pass a specific threshold.
+
+evenDigitsOnly
+ :Check if all digits of the given integer are even.

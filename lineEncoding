@@ -1,0 +1,36 @@
+String lineEncoding(String s) {
+    char[] line = s.toCharArray();
+    String[] encoding = new String[line.length];
+    encoding[0] = String.valueOf(line[0]);
+    int j = 0;
+    int count = 1;
+    
+    for (int i = 1; i < line.length; i++)
+    {
+        
+        if (line[i] == line[i-1])
+        {
+            count++;
+            encoding[j] = String.valueOf(count) + String.valueOf(line[i]);
+            
+        }
+        else {
+            count = 1;
+            j++;
+            encoding[j] = String.valueOf(line[i]);
+        }
+    }
+    
+    System.out.println(count);
+    
+    String concat = "";
+    for (String ch : encoding)
+    {
+        if (ch != null)
+        {
+            concat += ch;
+        }
+    }
+    
+    return concat;
+}

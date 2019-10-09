@@ -1,6 +1,6 @@
 # CodeSignal
 solutions to various coding questions
-
+-C++
 chessBoardCellColor
  :Returns whether or not two given cells from a chess board
   are of the same color.
@@ -26,6 +26,7 @@ extractEachKth
 differentSymbolsNaive
  :Given a string, find the number of different characters in it.
 
+-Java
 lineEncoding
  :Given a string, return its encoding defined as follows:
 

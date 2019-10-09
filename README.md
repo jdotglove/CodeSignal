@@ -1,5 +1,6 @@
 # CodeSignal
 solutions to various coding questions
+
 -C++
 chessBoardCellColor
  :Returns whether or not two given cells from a chess board
